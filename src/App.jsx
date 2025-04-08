@@ -12,10 +12,6 @@ import TopBar from './components/Topbar';
 import Chatbutton from './components/Chatbutton';
 import Footer from './components/Footer';
 
-
-
-
-
 function App() {
   return (
     <Router>
