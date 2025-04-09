@@ -54,18 +54,18 @@ function Contact() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-Kanit mb-4">ที่อยู่บริษัท</h3>
             <p className="text-gray-700 font-Kanit">
-              บริษัท สมมุติ จำกัด<br />
-              123/45 ซอยเทคโนโลยี ถนนนวัตกรรม<br />
-              แขวงสร้างสรรค์ เขตธุรกิจใหม่<br />
-              กรุงเทพมหานคร 10110
+            บริษัท เอ็นเอ วิคตอรี่ โปรดักส์ จำกัด<br />
+              139/99 หมู่2 ตำบลคูคต<br />
+              อำเภอลำลูกกา จังหวัดปทุมธานี 12130<br />
+            
             </p>
 
             <div className="mt-6">
               <h4 className="font-Kanit font-semibold mb-1">โทร:</h4>
-              <p className="text-gray-700">02-123-4567</p>
+              <a href="tel:0612353532" className="hover:underline">061-235-3532</a>
 
               <h4 className="font-Kanit font-semibold mt-4 mb-1">อีเมล:</h4>
-              <p className="text-gray-700">contact@company.com</p>
+              <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline">rukwongnattawat@gmail.com</a>
             </div>
           </div>
         </div>

@@ -127,7 +127,7 @@ const Product = () => {
             </div>
 
             {/* Add to Cart Button */}
-            <a className="py-3 pr-5 pl-5 bg-green-500 text-white rounded-lg text-xl font-Kanit hover:bg-green-700 " href="#">สนใจติดต่อสอบถาม </a>
+            <a className="py-3 pr-5 pl-5 bg-green-500 text-white rounded-lg text-xl font-Kanit hover:bg-green-700 " href="https://lin.ee/ph7rGso">สนใจติดต่อสอบถาม </a>
           </div>
         </div>
       </div>

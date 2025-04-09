@@ -29,8 +29,8 @@ function Footer() {
           {/* ส่วนที่ 3: ข้อมูลการติดต่อ */}
           <div>
             <h3 className="text-xl font-semibold mb-4">ติดต่อเรา</h3>
-            <p>โทร: +1 234 567 890</p>
-            <p>อีเมล: info@example.com</p>
+            <a href="tel:0612353532" className="hover:underline block">061-235-3532</a>
+            <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline block">rukwongnattawat@gmail.com</a>
           </div>
         </div>
 
@@ -38,9 +38,9 @@ function Footer() {
         <div className="mt-8 border-t border-gray-700 pt-4 text-center">
           <p>&copy; 2025 NT VICTORY PRODUCT Co.,Ltd. All rights reserved.</p>
           <div className="mt-4">
-            <a href="#" className="text-white hover:text-gray-400 mx-2">Facebook</a>
-            <a href="#" className="text-white hover:text-gray-400 mx-2">Line</a>
-            <a href="#" className="text-white hover:text-gray-400 mx-2">Call</a>
+            <a href="https://www.facebook.com/profile.php?id=61574573745470" className="text-white hover:text-gray-400 mx-2">Facebook</a>
+            <a href="https://lin.ee/ph7rGso" className="text-white hover:text-gray-400 mx-2">Line</a>
+            <a href="tel:0612353532" className="text-white hover:text-gray-400 mx-2">Call</a>
           </div>
         </div>
       </div>
