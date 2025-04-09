@@ -11,8 +11,10 @@ function TopBar() {
 
                 {/* ขวา */}
                 <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-center md:text-right">
-                    <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline">rukwongnattawat@gmail.com</a>
-                    <a href="tel:0612353532" className="hover:underline">061-235-3532</a>
+                    <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline" target="_blank"
+                        rel="noopener noreferrer nofollow">rukwongnattawat@gmail.com</a>
+                    <a href="tel:0612353532" className="hover:underline" target="_blank"
+                        rel="noopener noreferrer nofollow">061-235-3532</a>
                 </div>
             </div>
         </div>

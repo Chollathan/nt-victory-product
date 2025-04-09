@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-   <section className="bg-gray-100 py-16">
+    <section className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-Kanit mb-10 text-center">ติดต่อเรา</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -54,18 +54,20 @@ function Contact() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-Kanit mb-4">ที่อยู่บริษัท</h3>
             <p className="text-gray-700 font-Kanit">
-            บริษัท เอ็นเอ วิคตอรี่ โปรดักส์ จำกัด<br />
+              บริษัท เอ็นเอ วิคตอรี่ โปรดักส์ จำกัด<br />
               139/99 หมู่2 ตำบลคูคต<br />
               อำเภอลำลูกกา จังหวัดปทุมธานี 12130<br />
-            
+
             </p>
 
             <div className="mt-6">
               <h4 className="font-Kanit font-semibold mb-1">โทร:</h4>
-              <a href="tel:0612353532" className="hover:underline">061-235-3532</a>
+              <a href="tel:0612353532" className="hover:underline" target="_blank"
+                rel="noopener noreferrer nofollow">061-235-3532</a>
 
               <h4 className="font-Kanit font-semibold mt-4 mb-1">อีเมล:</h4>
-              <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline">rukwongnattawat@gmail.com</a>
+              <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline" target="_blank"
+                rel="noopener noreferrer nofollow">rukwongnattawat@gmail.com</a>
             </div>
           </div>
         </div>

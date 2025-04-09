@@ -29,8 +29,22 @@ function Footer() {
           {/* ส่วนที่ 3: ข้อมูลการติดต่อ */}
           <div>
             <h3 className="text-xl font-semibold mb-4">ติดต่อเรา</h3>
-            <a href="tel:0612353532" className="hover:underline block">061-235-3532</a>
-            <a href="mailto:rukwongnattawat@gmail.com" className="hover:underline block">rukwongnattawat@gmail.com</a>
+            <a
+              href="tel:0612353532"
+              className="hover:underline block"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              📞 061-235-3532
+            </a>
+            <a
+              href="mailto:rukwongnattawat@gmail.com"
+              className="hover:underline block"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              ✉️ rukwongnattawat@gmail.com
+            </a>
           </div>
         </div>
 

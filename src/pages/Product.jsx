@@ -39,7 +39,7 @@ const Product = () => {
   const sizeDescriptions = {
     เล็ก: (
       <>
-        ขนาดเล็กเหมาะสำหรับใช้ในพื้นที่จำกัดหรือห้องที่มีขนาดไม่ใหญ่เกินไป. 
+        ขนาดเล็กเหมาะสำหรับใช้ในพื้นที่จำกัดหรือห้องที่มีขนาดไม่ใหญ่เกินไป.
         สามารถเก็บของเบาๆ และอุปกรณ์ขนาดเล็กได้.
         <ul className="mt-2 text-gray-600 font-Kanit">
           <li>ขนาด: 107 x 40 x 200 cm</li>
@@ -60,7 +60,7 @@ const Product = () => {
     ),
     ใหญ่: (
       <>
-      <p>ขนาดใหญ่เหมาะสำหรับการใช้งานในพื้นที่กว้าง มีพื้นที่เก็บของมากเหมาะกับธุรกิจที่ต้องการการจัดเก็บสินค้าในปริมาณมาก.</p>
+        <p>ขนาดใหญ่เหมาะสำหรับการใช้งานในพื้นที่กว้าง มีพื้นที่เก็บของมากเหมาะกับธุรกิจที่ต้องการการจัดเก็บสินค้าในปริมาณมาก.</p>
       </>
     )
   };
@@ -69,7 +69,7 @@ const Product = () => {
     <>
       {/* แบนเนอร์ */}
       <img src={Banner} alt="Banner" className="w-full h-auto mb-8" />
-      
+
       <div className="container mx-auto p-8">
         {/* Header */}
         <header className="text-center mb-8">
@@ -97,9 +97,8 @@ const Product = () => {
                   <button
                     key={size}
                     onClick={() => setSelectedSize(size)}
-                    className={`px-4 py-2 rounded-lg ${
-                      selectedSize === size ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'
-                    }`}
+                    className={`px-4 py-2 rounded-lg ${selectedSize === size ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'
+                      }`}
                   >
                     {size}
                   </button>
@@ -116,9 +115,8 @@ const Product = () => {
                   <button
                     key={color}
                     onClick={() => setSelectedColor(color)}
-                    className={`px-4 py-2 rounded-lg ${
-                      selectedColor === color ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'
-                    }`}
+                    className={`px-4 py-2 rounded-lg ${selectedColor === color ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'
+                      }`}
                   >
                     {color}
                   </button>
@@ -127,7 +125,8 @@ const Product = () => {
             </div>
 
             {/* Add to Cart Button */}
-            <a className="py-3 pr-5 pl-5 bg-green-500 text-white rounded-lg text-xl font-Kanit hover:bg-green-700 " href="https://lin.ee/ph7rGso">สนใจติดต่อสอบถาม </a>
+            <a className="py-3 pr-5 pl-5 bg-green-500 text-white rounded-lg text-xl font-Kanit hover:bg-green-700 " href="https://lin.ee/ph7rGso" target="_blank"
+              rel="noopener noreferrer nofollow">สนใจติดต่อสอบถาม </a>
           </div>
         </div>
       </div>
