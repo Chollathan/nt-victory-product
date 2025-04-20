@@ -63,6 +63,7 @@ function Navbar() {
             <li><Link to="/contact">ติดต่อเรา</Link></li>
             <li><Link to="/about">เกี่ยวกับ</Link></li>
             <li><Link to="/blog">สาระน่ารู้</Link></li>
+            <li><Link to="/login">เข้าสู่ระบบ</Link></li>
             {user && user.role === "admin" && (
               <li>
                 <Link to="/admin/dashboard" className="text-blue-600 font-semibold">
